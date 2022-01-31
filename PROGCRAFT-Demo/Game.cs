@@ -12,10 +12,12 @@ namespace PROGCRAFT_Demo
             SetUpGame();
             ShowWelcome();
 
-            Item redDye = new Item();
-            redDye.Name = "Red Dye";
-            redDye.Price = 3.50f;
-            Print($"{redDye.Name} is {redDye.Price.ToString("c")} per vial.");
+            Print("This is what is in your inventory...");
+            Print(ShowAllItemsInList(Player.Inventory));
+            //Item redDye = new Item();
+            //redDye.Name = "Red Dye";
+            //redDye.Price = 3.50f;
+            //Print($"{redDye.Name} is {redDye.Price.ToString("c")} per vial.");
 
             //Utility.Pause();
             Pause();
