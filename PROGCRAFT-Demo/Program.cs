@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Console;
-using static PROGCRAFT_Demo.Utility;
+﻿/* PROG 201 01 Craft Application Demo
+ * January and February 2022
+ * Utilizes code produced in class by Janell Baxter
+ */
 
 namespace PROGCRAFT_Demo
 {

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace PROGCRAFT_Demo
 {
@@ -15,10 +12,7 @@ namespace PROGCRAFT_Demo
         public string Name;
 
         //C# properties have some method qualities
-        public List<Item> Inventory
-        {
-            get => default;
-           
-        }
+        public List<Item> Inventory = new List<Item> ();
+       
     }
 }

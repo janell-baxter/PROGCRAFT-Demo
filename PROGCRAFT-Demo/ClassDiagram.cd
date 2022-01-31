@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="PROGCRAFT_Demo.Program">
-    <Position X="0.5" Y="0.5" Width="3" />
+    <Position X="5.25" Y="7" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="PROGCRAFT_Demo.Person">
-    <Position X="5.75" Y="2" Width="2.75" />
+    <Position X="5.25" Y="3.5" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAgAAAAA=</HashCode>
       <FileName>Person.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="PROGCRAFT_Demo.Item">
-    <Position X="3.5" Y="3.5" Width="1.5" />
+    <Position X="1.75" Y="3.5" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAQAAAAgAAAAAAAAAAQAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQAgAAAAAAAAAAQAAAAABAAAAAAAgAAAAAA=</HashCode>
       <FileName>Item.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="PROGCRAFT_Demo.Recipe">
-    <Position X="3.5" Y="2" Width="1.5" />
+    <Position X="5.25" Y="5.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Recipe.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="PROGCRAFT_Demo.CraftingStation">
-    <Position X="3.5" Y="5" Width="1.5" />
+    <Position X="2" Y="7" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CraftingStation.cs</FileName>
