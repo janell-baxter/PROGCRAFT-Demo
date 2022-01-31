@@ -10,5 +10,17 @@ namespace PROGCRAFT_Demo
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
         }
+
+        public static void Print(string message)
+        {
+            Console.WriteLine(message);
+        }
+
+        //public string ConvertLowerCase(string message)
+        //{
+        //    return message.ToLower();
+        //}
+
+        public string ConvertLowerCase(string message) => message.ToLower();
     }
 }
