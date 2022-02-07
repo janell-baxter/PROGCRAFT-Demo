@@ -13,24 +13,24 @@ namespace PROGCRAFT_Demo
         //object initialization
         public List<Item> Inventory = new List<Item>()
         {
-            new Item()
-            { 
-                Name = "Toadstool",
-                Price = 1.29f,
-                Quantity = 2
+            //new Item()
+            //{ 
+            //    Name = "Toadstool",
+            //    Price = 1.29f,
+            //    Quantity = 2
         
-            },
-            new Item()
-            {
-                Name = "Feather",
-                Description = "Deceptively normal looking feather",
-                Quantity = 10
-            },
-            new Item()
-            {
-                Name = "Seaweed",
-                Quantity = 3
-            }
+            //},
+            //new Item()
+            //{
+            //    Name = "Feather",
+            //    Description = "Deceptively normal looking feather",
+            //    Quantity = 10
+            //},
+            //new Item()
+            //{
+            //    Name = "Seaweed",
+            //    Quantity = 3
+            //}
         
         };
 
