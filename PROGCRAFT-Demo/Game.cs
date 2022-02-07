@@ -1,7 +1,7 @@
 ﻿using static PROGCRAFT_Demo.Utility;
 using static System.Console;
 using static PROGCRAFT_Demo.Utilities.LoadData;
-
+using System.Collections.Generic;
 
 namespace PROGCRAFT_Demo
 {
@@ -11,7 +11,11 @@ namespace PROGCRAFT_Demo
         Person Trader = new Person();
         public void Run()
         {
+            AddItemsIntoInventory(Player);
+            Print(ShowAllItemsInList(Player.Inventory));
 
+
+            Pause();
             SetUpGame();
             ShowWelcome();
             Pause();
@@ -46,7 +50,14 @@ namespace PROGCRAFT_Demo
             //pull in instructions from external file and show them
             Print(LoadTextFromFile("../../data/instructions.txt"));
 
-            Player.Inventory = LoadLinesFromFile("../../data/items.txt");
+            Player.Inventory = CreateItemsFromTextFile("../../data/items.txt");
         }
+
+        
+
+
     }
-}
+    }
+
+
+

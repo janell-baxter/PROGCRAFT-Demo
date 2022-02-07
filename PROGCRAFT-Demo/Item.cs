@@ -1,5 +1,6 @@
 ﻿namespace PROGCRAFT_Demo
 {
+
     public class Item
     {
         public string Name;
@@ -7,6 +8,7 @@
         public float Quantity = 1;
         public Recipe Formula;
         public float Price;
+        public float Amount;
         //public string AmountType = "cup(s)";
     }
 }
